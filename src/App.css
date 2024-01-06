@@ -47,6 +47,7 @@ body {
   overflow: hidden;
   padding: 15px 25px;
   border: 1px solid #ff5151;
+  border-radius: 35px;
   color: #ff5151;
   cursor: pointer;
   background: transparent;
@@ -90,4 +91,106 @@ body {
 }
 .text {
   color: rgb(153, 149, 149);
+}
+.padding {
+  padding: 7rem;
+  background: rgb(248, 248, 248);
+}
+.bgc_Color {
+  background-color: rgb(231, 239, 248);
+}
+.height {
+  height: 350px;
+}
+.bgc {
+  color: rgb(255, 81, 86);
+}
+.Section_01_Image {
+  width: 100%;
+  height: 675px;
+  object-fit: cover;
+}
+.Section_01_Top {
+  margin-top: 90px;
+}
+.green {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(117, 255, 186);
+}
+
+.yellow {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 205, 117);
+}
+.red {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 79, 79);
+}
+.purple {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(86, 102, 255);
+}
+.s {
+  display: inline-block;
+}
+.s:hover {
+  color: rgb(255, 81, 81);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.bd {
+  border: 1px solid pink;
+  display: inline-block;
+  padding: 8px 25px;
+  border-radius: 20px;
+}
+.cursor {
+  all: unset;
+  cursor: pointer;
+}
+.text {
+  color: rgb(182, 179, 179);
+  cursor: pointer;
+}
+
+._ms {
+  margin-left: 85px;
+}
+.unset {
+  all: unset;
+}
+.unset:active {
+  color: black;
+}
+table tbody tr td {
+  border-right: 1px solid #f0f0f0;
+  padding: 17px 70px;
+}
+table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid #f0f0f0;
+}
+tbody {
+  border: 1px solid #f0f0f0;
+}
+._td {
+  width: 400px;
+}
+._btn{
+  all: unset;
 }

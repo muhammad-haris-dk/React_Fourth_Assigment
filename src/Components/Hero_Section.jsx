@@ -2,6 +2,8 @@ import Image from "../assets/hm1-single-1.png";
 import { Button_Component } from "./Button_Component";
 const Hero_Section = () => {
   return (
+    <>
+    
     <div className="Hero_Section_Flex mt-5">
       <div style={{display: "flex",alignItems: "center"}}>
         <img style={{ height: "80vh" }} src={Image} alt="" />
@@ -14,6 +16,7 @@ const Hero_Section = () => {
         <Button_Component label='SHOP NOW' />
       </div>
     </div>
+    </>
   );
 };
 

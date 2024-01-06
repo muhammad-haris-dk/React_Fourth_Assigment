@@ -7,7 +7,7 @@ const Section_07_Component = () => {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="card col" style={{ width: "18rem" }}>
+        <div className="card col me-3" style={{ width: "18rem" }}>
           <img src={CardsImage01} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text">Chair</p>
@@ -15,7 +15,7 @@ const Section_07_Component = () => {
             <p>$210.00</p>
           </div>
         </div>
-        <div className="card col" style={{ width: "18rem" }}>
+        <div className="card col me-3" style={{ width: "18rem" }}>
           <img src={CardsImage02} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text">Chair</p>
@@ -23,7 +23,7 @@ const Section_07_Component = () => {
             <p>$210.00</p>
           </div>
         </div>
-        <div className="card col" style={{ width: "18rem" }}>
+        <div className="card col me-3" style={{ width: "18rem" }}>
           <img src={CardsImage03} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text">Chair</p>
@@ -31,7 +31,7 @@ const Section_07_Component = () => {
             <p>$210.00</p>
           </div>
         </div>
-        <div className="card col" style={{ width: "18rem" }}>
+        <div className="card col me-3" style={{ width: "18rem" }}>
           <img src={CardsImage04} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text">Chair</p>
